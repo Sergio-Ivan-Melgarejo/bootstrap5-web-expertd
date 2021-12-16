@@ -88,6 +88,7 @@ body{
       Section de nuestro equipo 
     ======================================  
 */
+
 .equipo-box{
     width: 60%;
     position: absolute;
@@ -111,6 +112,11 @@ body{
     opacity: 1;
 }
 
+#equipo-id{
+    max-height: 600px;
+    width: 100%;
+}
+
 /*  
     ======================================  
       Section de nuestro equipo  MAPA
@@ -124,7 +130,6 @@ body{
 
 #local{
     background-color: #f3f3f3;
-    padding-bottom: 300px;
     display: flex;
     justify-content: center;
 }
@@ -147,10 +152,41 @@ body{
 
 /*  
     ======================================  
-      Section de nuestro equipo 
+      Contactos backgroud
     ======================================  
 */
+#bg-contacto{
+    position: relative;
+    top: -100px;
+    width: 100%;
+    margin-top: 300px;
+}
 
+#contacto{
+    background-color: #1b2a4e;
+    min-height: 700px;
+    position: relative;
+    padding: 0;
+}
+
+/*  
+    ======================================  
+      Contacto formulario
+    ======================================  
+*/
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario{
+    color: #3f3f3f;
+}
 
 
 
@@ -213,6 +249,16 @@ body{
         width: 400px;
         font-size: 1.5rem;
     }
+
+    /*  
+    ======================================  
+      Contactos backgroud
+    ======================================  
+    */
+    #bg-contacto{
+        top: -110px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -256,6 +302,15 @@ body{
         width: 500px;
         font-size: 2rem;
     }
+
+    /*  
+    ======================================  
+      Contactos backgroud
+    ======================================  
+    */
+    #bg-contacto{
+        top: -120px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -285,6 +340,15 @@ body{
     .equipo-box img{
         width: 64px;
         height: 64px;
+    }
+
+    /*  
+    ======================================  
+      Contactos backgroud
+    ======================================  
+    */
+    #bg-contacto{
+        top: -150px;
     }
 }
 
